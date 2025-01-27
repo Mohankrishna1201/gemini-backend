@@ -3,7 +3,7 @@ const cors = require('cors');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Initialize the API key and GoogleGenerativeAI instance
-const apiKey = 'AIzaSyCybvT2M8Xgkhtf5MfwTc0TH_aZE3faLAU';  // Use environment variables in production for security
+const apiKey = 'AIzaSyDtG2knfHfhk9mHCq0L4TFaCEEXr85iPeA';  // Use environment variables in production for security
 const genAI = new GoogleGenerativeAI(apiKey);
 const app = express();
 
