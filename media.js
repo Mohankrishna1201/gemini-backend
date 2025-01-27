@@ -46,8 +46,8 @@ const upload = multer({ storage: storage });
 router.use(express.json());
 
 // Initialize GoogleAIFileManager with API_KEY
-const fileManager = new GoogleAIFileManager('AIzaSyDu6OUpOG7gNq1F9hh2XlbTtD0Ub1krtbI');
-const genAI = new GoogleGenerativeAI('AIzaSyDu6OUpOG7gNq1F9hh2XlbTtD0Ub1krtbI');
+const fileManager = new GoogleAIFileManager('AIzaSyDtG2knfHfhk9mHCq0L4TFaCEEXr85iPeA');
+const genAI = new GoogleGenerativeAI('AIzaSyDtG2knfHfhk9mHCq0L4TFaCEEXr85iPeA');
 
 // File upload endpoint
 router.post('/upload', upload.single('file'), async (req, res) => {
